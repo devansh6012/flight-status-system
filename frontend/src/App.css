@@ -1,0 +1,302 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+
+/* Navbar */
+/* Navbar styles */
+.navbar {
+  background-color: #007bff;
+  padding: 10px;
+}
+
+.navbar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-menu li {
+  margin: 0 15px;
+}
+
+.navbar-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-menu a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+/* FlightStatus table styles */
+.flight-status-container {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flight-status-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.flight-status-table th, .flight-status-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.flight-status-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.flight-status-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.flight-status-table .flight-number {
+  font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .flight-status-table th, .flight-status-table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .flight-status-table th {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f4f4f4;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  .flight-status-table td {
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  .flight-status-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+}
+
+
+
+
+/* AdminPage styles */
+.admin-page-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-page-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-page-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.admin-page-container input[readOnly] {
+  background-color: #f9f9f9;
+}
+
+.admin-page-container button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-page-container button:hover {
+  opacity: 0.8;
+}
+
+.admin-page-container .cancel-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.admin-page-container .cancel-btn:hover {
+  background-color: #c82333;
+}
+
+.admin-page-container .edit-btn {
+  background-color: #28a745;
+  color: #fff;
+  margin-right: 10px; /* Add space between edit and delete button */
+}
+
+.admin-page-container .edit-btn:hover {
+  background-color: #218838;
+}
+
+.admin-page-container .delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.admin-page-container .delete-btn:hover {
+  background-color: #c82333;
+}
+
+.flights-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.flights-table th, .flights-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.flights-table th {
+  background-color: #f4f4f4;
+}
+
+.flights-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .admin-page-container {
+    width: 95%;
+  }
+
+  .admin-page-container form {
+    flex-direction: column;
+  }
+
+  .flights-table {
+    font-size: 14px;
+  }
+}
+
+
+
+
+button {
+  padding: 10px 15px;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.popup h3 {
+  margin-bottom: 15px;
+}
+
+.popup form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.popup form button[type="submit"] {
+  margin-top: 10px;
+  background-color: #4CAF50;
+}
+
+.popup form button[type="button"] {
+  margin-top: 5px;
+  background-color: #f44336;
+}
+
+.popup form button[type="button"]:hover {
+  background-color: #e53935;
+}
