@@ -85,4 +85,4 @@ This project is licensed under the MIT License.
 - **Flask:** For the lightweight yet powerful web framework.
 - **MongoDB:** For the flexible NoSQL database.
 
-For any queries or issues, please contact [your-email@example.com](mailto:devansh5901@gmail.com).
+For any queries or issues, please contact [devansh5901@gmail.com](mailto:devansh5901@gmail.com).
