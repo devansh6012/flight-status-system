@@ -77,9 +77,16 @@ Walkthrough Video: https://drive.google.com/file/d/1yCksjRiH_FqOOUb_BiKbZyQR6vzs
 ## Gallery
 
 ![image](https://github.com/user-attachments/assets/374d2512-8133-4728-9e8c-063542529633)
-Admin Page
+Admin Page -> Perform CRUD operations on flights
 
+![image](https://github.com/user-attachments/assets/82dd8e10-9e00-4a60-9d23-3b769f6903f8)
+Flights Status Page -> Shows list of flights with details. And gives option for users to subscribe and track their flight status.
 
+![image](https://github.com/user-attachments/assets/41c042f6-7e16-4bd3-9546-fa833c60d3ee)
+Subscription Form -> Users submit this form and become a registered user allowing them to get notifications.
+
+![image](https://github.com/user-attachments/assets/2341293e-3039-42d7-aac6-2111c7cb3af9)
+Notification popup -> If there is gate change or status change or time change subscribed user gets notifications.
 
 ## Contributing
 We welcome contributions to enhance this project. Please follow standard GitHub procedures for submitting pull requests and issues.
