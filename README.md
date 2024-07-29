@@ -74,6 +74,12 @@ Walkthrough Video: https://drive.google.com/file/d/1yCksjRiH_FqOOUb_BiKbZyQR6vzs
     - Admins can update flight status, gate, and departure times through the backend.
     - Subscribed users receive notifications about these updates in real-time.
 
+## Gallery
+
+![image](https://github.com/user-attachments/assets/374d2512-8133-4728-9e8c-063542529633)
+Admin Page
+
+
 
 ## Contributing
 We welcome contributions to enhance this project. Please follow standard GitHub procedures for submitting pull requests and issues.
