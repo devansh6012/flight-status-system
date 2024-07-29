@@ -3,6 +3,8 @@
 ## Overview
 This project provides a comprehensive solution for delivering real-time flight status updates and notifications to passengers. The system displays current flight statuses, including delays, cancellations, and gate changes, and sends personalized notifications to users via push notifications.
 
+Walkthrough Video: https://drive.google.com/file/d/1yCksjRiH_FqOOUb_BiKbZyQR6vzsdg2B/view?usp=sharing
+
 ## Features
 - **Real-Time Updates:** Displays up-to-date flight status information on the frontend.
 - **Push Notifications:** Sends notifications for flight status changes using Firebase Cloud Messaging (FCM).
