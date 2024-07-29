@@ -9,6 +9,7 @@ Walkthrough Video: https://drive.google.com/file/d/1yCksjRiH_FqOOUb_BiKbZyQR6vzs
 - **Real-Time Updates:** Displays up-to-date flight status information on the frontend.
 - **Push Notifications:** Sends notifications for flight status changes using Firebase Cloud Messaging (FCM).
 - **User Management:** Allows users to register, subscribe to specific flights.
+- **Admin Operations:** Perform CRUD operations on flight details.
 
 ## Tech Stack
 
